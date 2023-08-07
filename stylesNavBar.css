@@ -18,6 +18,11 @@ main {
   border-image-repeat: stretch;
 }
 
+main h1 {
+  color:#fff;
+  font-size:5rem;
+}
+
 .navbar {
   background-color: #333;
   color: #fff;

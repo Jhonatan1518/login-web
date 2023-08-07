@@ -1,0 +1,24 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Satisfy&display=swap’);
+/* font-family: ‘Satisfy’, cursive; */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: ‘Satisfy’, cursive;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../IMG/fondo.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-image-repeat: stretch;
+}
+
+main h1 {
+  color:#fff;
+  font-size:5rem;
+}
