@@ -7,6 +7,17 @@ body {
   font-family: ‘Satisfy’, cursive;
 }
 
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./IMG/fondo.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-image-repeat: stretch;
+}
+
 .navbar {
   background-color: #333;
   color: #fff;
