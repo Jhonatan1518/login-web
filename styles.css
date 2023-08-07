@@ -1,0 +1,134 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;800&display=swap’);
+
+/* font-family: ‘Dosis’, sans-serif; */
+
+@import url(
+  ‘https://fonts.googleapis.com/css2?family=Montserrat:ital,
+  wght@0,
+  200;0,
+  600;1,
+  300;1,
+  400&display=swap’
+);
+
+/* font-family: ‘Montserrat’, sans-serif; */
+
+@import url(‘https://fonts.googleapis.com/css2?family=Satisfy&display=swap’);
+
+/* font-family: ‘Satisfy’, cursive; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./IMG/fondo.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-image-repeat: stretch;
+}
+
+.card_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28rem;
+  height: 15rem;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cardinfo h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "satisfy", cursive;
+}
+
+.cardinfo h3 {
+  color: white;
+  font-size: 25px;
+  font-family: "Dosis", sans-serif;
+}
+
+.cardinfo p {
+  color: white;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+}
+
+.cardform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28rem;
+  height: 18rem;
+  background-color: rgba(255, 255, 255, 0.721);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+}
+.cardform label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  position: relative;
+}
+
+.cardform input[type="text"],
+.cardform input[type="password"] {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.cardform h2 {
+  margin: 1rem;
+  font-family: "satisfy", cursive;
+}
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 0.7rem;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+  font-family: "satisfy", cursive;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+}
