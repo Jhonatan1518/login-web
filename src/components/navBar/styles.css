@@ -1,5 +1,3 @@
-@import url(‘https://fonts.googleapis.com/css2?family=Satisfy&display=swap’);
-/* font-family: ‘Satisfy’, cursive; */
 
 body {
   margin: 0;
@@ -10,7 +8,7 @@ body {
 main {
   width: 100vw;
   height: 100vh;
-  background-image: url("./IMG/fondo.jpeg");
+  background-image: url("../../assets/IMG/fondo.jpeg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,12 +50,12 @@ main h1 {
   margin-left: 20px;
 }
 
-.navbar-menu li a {
+.navBarItem {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
 }
 
-.navbar-menu li a:hover {
+.navBarItem:hover {
   color: #ffc107;
 }

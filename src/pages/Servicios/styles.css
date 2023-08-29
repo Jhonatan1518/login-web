@@ -1,0 +1,16 @@
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/IMG/fondo.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-image-repeat: stretch;
+  }
+  
+   h1 {
+    color:#fff;
+    font-size:5rem;
+  }

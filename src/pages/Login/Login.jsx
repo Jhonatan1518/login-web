@@ -1,16 +1,16 @@
-x<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+import React from 'react';
+import './styles.css'; 
+import { Link } from 'react-router-dom';
+import Llave from "../../assets/IMG/llave.png";
+import Usuario from "../../assets/IMG/usuario.png";
+
+const Login = () => {
+  return (
+    <>
     <main>
-      <div class="main">
-        <div class="card_main">
-          <div class="cardinfo">
+      <div className="main">
+        <div className="card_main">
+          <div className="cardinfo">
             <h1>
               Welcome
             </h1>
@@ -20,11 +20,11 @@ x<!DOCTYPE html>
             <p>Esta es la mejor pagina web creada en el mundo</p>
           </div>
 
-          <div class="cardform">
+          <div className="cardform">
             <h2>USER LOGIN</h2>
-            <div class="inputContainer">
-              <img src="IMG/usuario.png" />
-              <label for="username">
+            <div className="inputContainer">
+              <img src={Usuario} alt="User" />
+              <label htmlFor="username">
                 <input
                   type="text"
                   id="username"
@@ -32,9 +32,9 @@ x<!DOCTYPE html>
                 />
               </label>
             </div>
-            <div class="inputContainer">
-              <img src="IMG/llave.png" />
-              <label for="password">
+            <div className="inputContainer">
+              <img src={Llave} alt="Password" />
+              <label htmlFor="password">
                 <input
                   type="password"
                   id="password"
@@ -42,13 +42,16 @@ x<!DOCTYPE html>
                 />
               </label>
             </div>
-            <div class="forgot">
+            <div className="forgot">
               <a href="#"> Olvide mi contraseña</a>
             </div>
-            <a class="button" href="navBar.html">Login</a>
+            <Link className="button" to="/home">Login</Link>
           </div>
         </div>
       </div>
     </main>
-  </body>
-</html>
+    </>
+  );
+}
+
+export default Login;
